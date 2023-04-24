@@ -1,2 +1,2 @@
 # customer_specific_product_sales_forecasting
-Forecast product sales quantity by specific customer over 30 days
+Django Rest API Framework for VAR forecasting on future product sales quantity by specific customer
