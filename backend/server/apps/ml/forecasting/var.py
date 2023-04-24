@@ -29,7 +29,7 @@ class VAR:
         product_index = np.where(self.product_list == item_Id)[0][0]
         customer_index = np.where(self.customer_list == customer_Id)[0][0]
         index = product_index * (len(self.customer_list)) + customer_index
-        return predictions[:, index]
+        return {"status": "OK", "predictions": predictions[:, index]}
 
     def compute_prediction(self, input_data):
         try:
